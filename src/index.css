@@ -28,6 +28,33 @@ code {
   display: flex;
 }
 
+.nav-right p {
+  color: white;
+}
+
 .nav-bar p {
   margin: 1rem;
 }
+
+h3 {
+  color: white;
+}
+
+.nav-appt,
+.body-appt {
+  background-color: hsla(165, 70%, 55%, 1);
+  font-size: 1rem;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* .body-appt {
+  background-color: hsla(165, 70%, 55%, 1);
+  font-size: 1.4rem;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 5px;
+  color: white;
+} */
