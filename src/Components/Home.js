@@ -19,7 +19,12 @@ class Home extends Component {
             <button className="body-appt">Set Appointment</button>
           </section>
         </div>
-
+        <div className="branches">
+          <p>The 7 Life Lessons</p>
+          <p>Relationship Repair</p>
+          <p>Corporate Wellness</p>
+          <p>Membership</p>
+        </div>
         <section className="message">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

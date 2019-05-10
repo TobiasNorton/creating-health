@@ -20,7 +20,7 @@ code {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: calc(100vh - 5rem);
 }
 
 .nav-bar {
@@ -55,7 +55,7 @@ h3 {
   padding: 14px 16px 14px 16px;
   border-radius: 5px;
   color: white;
-  height: 2.6rem;
+  height: 2.7rem;
   margin-left: 1rem;
 }
 
@@ -74,7 +74,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: calc(100vh - 20rem);
 }
 
 .message {
@@ -92,4 +92,21 @@ h3 {
   margin: 0;
   max-width: 50rem;
   margin: 4rem;
+}
+
+.branches {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsla(193, 70%, 50%, 1);
+}
+
+.branches p {
+  font-size: 1.2rem;
+  color: white;
+  background-color: hsla(193, 70%, 50%, 1);
+}
+
+.branches p:hover {
+  /* background-color: white; */
 }
