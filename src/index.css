@@ -10,6 +10,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .home {
   background: linear-gradient(hsla(185, 0%, 50%, 0.2), hsla(185, 0%, 50%, 0.2)),
     url('./Assets/suzanne-homepage.jpg');
@@ -22,10 +26,12 @@ code {
 .nav-bar {
   display: flex;
   justify-content: flex-end;
+  padding: 1rem;
 }
 
 .nav-right {
   display: flex;
+  align-items: center;
 }
 
 .nav-right p {
@@ -33,28 +39,57 @@ code {
 }
 
 .nav-bar p {
+  font-size: 1.1rem;
   margin: 1rem;
 }
 
 h3 {
   color: white;
+  font-size: 1.8rem;
 }
 
-.nav-appt,
-.body-appt {
-  background-color: hsla(165, 70%, 55%, 1);
-  font-size: 1rem;
+.nav-appt {
+  background-color: hsla(165, 90%, 45%, 1);
+  font-size: 1.2rem;
   border: none;
-  padding: 12px 16px;
+  padding: 14px 16px 14px 16px;
   border-radius: 5px;
   color: white;
+  height: 2.6rem;
+  margin-left: 1rem;
 }
 
-/* .body-appt {
-  background-color: hsla(165, 70%, 55%, 1);
+.body-appt {
+  background-color: hsla(165, 90%, 45%, 1);
   font-size: 1.4rem;
   border: none;
-  padding: 16px 20px;
+  padding: 16px 22px 12px 22px;
+  width: 16rem;
   border-radius: 5px;
   color: white;
-} */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.message {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.message p {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+  max-width: 50rem;
+  margin: 4rem;
+}
