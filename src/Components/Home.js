@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Home extends Component {
   render() {
@@ -20,10 +21,18 @@ class Home extends Component {
           </section>
         </div>
         <div className="branches">
-          <p>The 7 Life Lessons</p>
-          <p>Relationship Repair</p>
-          <p>Corporate Wellness</p>
-          <p>Membership</p>
+          <Link to="" className="branch">
+            The 7 Life Lessons
+          </Link>
+          <Link to="" className="branch">
+            Relationship Repair
+          </Link>
+          <Link to="" className="branch">
+            Corporate Wellness
+          </Link>
+          <Link to="" className="branch">
+            Membership
+          </Link>
         </div>
         <section className="message">
           <p>

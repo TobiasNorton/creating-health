@@ -98,15 +98,17 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: hsla(193, 70%, 50%, 1);
 }
 
-.branches p {
+.branch {
   font-size: 1.2rem;
   color: white;
   background-color: hsla(193, 70%, 50%, 1);
+  width: 100%;
+  padding: 1.2rem 0 1rem 0;
+  text-decoration: none;
 }
 
-.branches p:hover {
-  /* background-color: white; */
+.branch:hover {
+  background-color: hsla(193, 70%, 65%, 1);
 }
