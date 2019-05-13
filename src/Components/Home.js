@@ -21,27 +21,30 @@ class Home extends Component {
           </section>
         </div>
         <div className="branches">
-          <Link to="" className="branch">
+          <Link to="7-life-lessons" className="branch">
             The 7 Life Lessons
           </Link>
-          <Link to="" className="branch">
+          <Link to="relationship-repair" className="branch">
             Relationship Repair
           </Link>
-          <Link to="" className="branch">
+          <Link to="corporate-wellness" className="branch">
             Corporate Wellness
           </Link>
-          <Link to="" className="branch">
+          <Link to="membership" className="branch">
             Membership
           </Link>
         </div>
         <section className="message">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+            mollit anim id est laborum."
+            <br />
+            <br />
+            --Suzanne Marsh
           </p>
         </section>
       </>
