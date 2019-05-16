@@ -16,8 +16,9 @@ class Home extends Component {
             </div>
           </nav>
           <section className="main">
-            <h3>Being healthy doesn't have to be hard.</h3>
+            <h3>Find peace in your relationships.</h3>
             <button className="body-appt">Set Appointment</button>
+            <p className="starter-kit">Click here for your free starter kit!</p>
           </section>
         </div>
         <div className="branches">
@@ -36,15 +37,47 @@ class Home extends Component {
         </div>
         <section className="message">
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum."
+            Our relationships can be our greatest source of love and safety or our greatest source
+            of pain and conflict. These conflicts repeat and get harder and harder over time
+            undermining our happiness and leaving us totally confused to what they are and where
+            they come from. The 7 Life Lessons is a map to unlocking, understanding these conflicts
+            and how to get to peace so there is no need to keep repeating them. Schedule now to
+            learn this proven process for yourself and to share with your loved ones.
             <br />
             <br />
             --Suzanne Marsh
+          </p>
+          <h3>Testimonials</h3>
+          <p>
+            "I recently had the pleasure of sitting with Suzanne inside her amazingly beautiful
+            space and receiving a breakthrough! I’ve read countless books, have done numerous
+            therapy/coaching sessions, and have gone to weekend seminars and never got as much
+            self-knowledge when she facilitated this conversation. My new found awareness gave me an
+            opportunity to transform that area of my life and become a whole new person. I now know
+            that the way I was viewing things gave me no real freedom--mostly worries. Not anymore!
+            Thank you Suzanne for sitting with and helping me discover something so huge in 90
+            minutes that would have otherwise taken months if not years!" – Madison T.
+          </p>
+          <div className="divider" />
+          <p>
+            "Wow, people go their whole lives not knowing about the Life lessons and how they work
+            in your life. I feel lucky to learn this now rather than years from now! I can’t wait to
+            learn more." - Paula R.
+          </p>
+          <div className="divider" />
+
+          <p>
+            "I had no idea the importance of forgiveness or even exactly what it was. It was hurting
+            myself and my family. I feel a huge burden gone and can be around my dad without being
+            angry and upset. He can’t push my buttons anymore! I’m so grateful." – Jen B.
+          </p>
+          <div className="divider" />
+          <p>
+            "I came to help my marriage. Our problems were getting worse and worse. I learned that
+            my wife and I were judging each other and it was killing our relationship. As I’m
+            working on not judging, we’re beginning to have more fun and let some walls down. We’re
+            starting to get back to where we were before. I feel hope again for us and our family."
+            -Greg P.
           </p>
         </section>
       </>
