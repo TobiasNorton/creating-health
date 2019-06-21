@@ -1,20 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
 
 class Home extends Component {
   render() {
     return (
       <>
         <div className="home">
-          <nav className="nav-bar">
-            <div className="nav-right">
-              <p>About</p>
-              <p>Contact</p>
-              <p>Blog</p>
-              <p>Other Good Stuff</p>
-              <button className="nav-appt">Set Appointment</button>
-            </div>
-          </nav>
+          <NavBar />
           <section className="main">
             <h3>Find peace in your relationships.</h3>
             <button className="body-appt">Set Appointment</button>
@@ -22,16 +15,16 @@ class Home extends Component {
           </section>
         </div>
         <div className="branches">
-          <Link to="7-life-lessons" className="branch">
+          <Link to="/7-life-lessons" className="branch">
             The 7 Life Lessons
           </Link>
-          <Link to="relationship-repair" className="branch">
+          <Link to="/relationship-repair" className="branch">
             Relationship Repair
           </Link>
-          <Link to="corporate-wellness" className="branch">
+          <Link to="/corporate-wellness" className="branch">
             Corporate Wellness
           </Link>
-          <Link to="membership" className="branch">
+          <Link to="/membership" className="branch">
             Membership
           </Link>
         </div>
@@ -56,20 +49,26 @@ class Home extends Component {
             opportunity to transform that area of my life and become a whole new person. I now know
             that the way I was viewing things gave me no real freedom--mostly worries. Not anymore!
             Thank you Suzanne for sitting with and helping me discover something so huge in 90
-            minutes that would have otherwise taken months if not years!" – Madison T.
+            minutes that would have otherwise taken months if not years!"
+            <br />
+            <br />- Madison T.
           </p>
           <div className="divider" />
           <p>
             "Wow, people go their whole lives not knowing about the Life lessons and how they work
             in your life. I feel lucky to learn this now rather than years from now! I can’t wait to
-            learn more." - Paula R.
+            learn more."
+            <br />
+            <br />- Paula R.
           </p>
           <div className="divider" />
 
           <p>
             "I had no idea the importance of forgiveness or even exactly what it was. It was hurting
             myself and my family. I feel a huge burden gone and can be around my dad without being
-            angry and upset. He can’t push my buttons anymore! I’m so grateful." – Jen B.
+            angry and upset. He can’t push my buttons anymore! I’m so grateful."
+            <br />
+            <br />- Jen B.
           </p>
           <div className="divider" />
           <p>
@@ -77,7 +76,8 @@ class Home extends Component {
             my wife and I were judging each other and it was killing our relationship. As I’m
             working on not judging, we’re beginning to have more fun and let some walls down. We’re
             starting to get back to where we were before. I feel hope again for us and our family."
-            -Greg P.
+            <br />
+            <br />- Greg P.
           </p>
         </section>
       </>

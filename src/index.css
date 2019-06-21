@@ -21,10 +21,14 @@ code {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: calc(100vh - 5rem);
+  min-height: calc(100vh - 54px);
 }
 
 .nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
@@ -39,9 +43,10 @@ code {
   color: white;
 }
 
-.nav-bar p {
+.nav-link {
   font-size: 1.1rem;
   margin: 1rem;
+  text-decoration: none;
 }
 
 h3 {
@@ -85,12 +90,20 @@ h3 {
 }
 
 .message {
-  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+  background-color: hsla(200, 90%, 30%, 1);
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: hsla(200, 90%, 30%, 1);
 }
 
@@ -132,6 +145,11 @@ h3 {
 .corp-wellness {
   color: white;
   font-size: 1.2rem;
+}
+
+.content-container {
+  max-width: 50rem;
+  padding: 5rem;
 }
 
 li {
