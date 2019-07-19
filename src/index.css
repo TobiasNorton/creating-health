@@ -25,7 +25,7 @@ code {
 }
 
 .nav-bar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -49,28 +49,24 @@ code {
   text-decoration: none;
 }
 
-h3 {
-  color: white;
-  font-size: 1.8rem;
-}
-
 .nav-appt {
   background-color: hsla(165, 90%, 45%, 1);
   font-size: 1.2rem;
   border: none;
-  padding: 14px 16px 14px 16px;
+  padding: 14px 18px 12px 18px;
   border-radius: 5px;
   color: white;
-  height: 2.7rem;
+  /* height: 2.7rem; */
   margin-left: 1rem;
 }
 
 .body-appt {
   background-color: hsla(165, 90%, 45%, 1);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight: bold;
   border: none;
   padding: 16px 22px 12px 22px;
-  width: 16rem;
+  width: 20rem;
   border-radius: 5px;
   color: white;
 }
@@ -85,7 +81,7 @@ h3 {
 
 .starter-kit {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-top: 2rem;
 }
 

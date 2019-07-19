@@ -18,7 +18,9 @@ class NavBar extends Component {
           <Link to="/other-good-stuff" className="nav-link">
             Other Good Stuff
           </Link>
-          <button className="nav-appt">Set Appointment</button>
+          <Link>
+            <button className="nav-appt">Set Appointment</button>
+          </Link>
         </div>
       </nav>
     )

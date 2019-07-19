@@ -11,13 +11,14 @@ import Contact from './Components/Contact'
 import Other from './Components/Other'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import RateRelationships from './Components/RateRelationships'
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Route exact path="/" component={Home} />
-        <Route exact path="/7-life-lessons" component={SevenLessons} />
+        <Route exact path="/seven-life-lessons" component={SevenLessons} />
         <Route exact path="/relationship-repair" component={RelationshipRepair} />
         <Route exact path="/corporate-wellness" component={CorporateWellness} />
         <Route exact path="/membership" component={Membership} />
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/other-good-stuff" component={Other} />
+        <Route exact path="/rate-your-relationships" component={RateRelationships} />
       </div>
     </Router>
   )

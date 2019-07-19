@@ -1,8 +1,16 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
 
 class SevenLessons extends Component {
   render() {
-    return <div />
+    return (
+      <>
+        <NavBar />
+        <div className="coming-soon">
+          <h3>Coming soon!</h3>
+        </div>
+      </>
+    )
   }
 }
 

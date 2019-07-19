@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
 
-class Other extends Component {
+class OtherGoodStuff extends Component {
   render() {
     return (
-      <div className="coming-soon">
-        <h3>Coming soon!</h3>
-      </div>
+      <>
+        <NavBar />
+        <div className="coming-soon">
+          <h3>Coming soon!</h3>
+        </div>
+      </>
     )
   }
 }
 
-export default Other
+export default OtherGoodStuff

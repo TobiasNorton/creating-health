@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 
-class About extends Component {
+class RateRelationships extends Component {
   render() {
     return (
       <>
@@ -14,4 +14,4 @@ class About extends Component {
   }
 }
 
-export default About
+export default RateRelationships

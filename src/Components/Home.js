@@ -9,13 +9,16 @@ class Home extends Component {
         <div className="home">
           <NavBar />
           <section className="main">
-            <h3>Find peace in your relationships.</h3>
-            <button className="body-appt">Set Appointment</button>
-            <p className="starter-kit">Click here for your free starter kit!</p>
+            {/* <h3>Find peace in your relationships.</h3> */}
+            {/* <button className="body-appt">Set Appointment</button> */}
+            <h3 className="starter-kit">Take a moment to rate your relationships.</h3>
+            <Link to="/rate-your-relationships">
+              <button className="body-appt">Click Here For Your Score</button>
+            </Link>
           </section>
         </div>
         <div className="branches">
-          <Link to="/7-life-lessons" className="branch">
+          <Link to="/seven-life-lessons" className="branch">
             The 7 Life Lessons
           </Link>
           <Link to="/relationship-repair" className="branch">
