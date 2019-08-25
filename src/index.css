@@ -22,6 +22,9 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 54px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-bar {
@@ -77,6 +80,11 @@ code {
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 20rem);
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0;
 }
 
 .starter-kit {
