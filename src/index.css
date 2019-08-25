@@ -151,6 +151,15 @@ h1 {
   font-size: 1.2rem;
 }
 
+.corp-wellness-subsection {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.corp-wellness-subsection h4 {
+  text-align: center;
+}
+
 .content-container {
   max-width: 50rem;
   padding: 5rem;

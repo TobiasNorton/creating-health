@@ -1,32 +1,28 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
 
 class CorporateWellness extends Component {
   render() {
     return (
       <div className="home">
-        <nav className="nav-bar">
-          <div className="nav-right">
-            <p>About</p>
-            <p>Contact</p>
-            <p>Blog</p>
-            <p>Other Good Stuff</p>
-            <button className="nav-appt">Set Appointment</button>
-          </div>
-        </nav>
+        <NavBar />
         <section className="main">
           <div className="content-container">
-            <h3>The Real Cost of Employee Disengagement</h3>
+            <h2>The Real Cost of Employee Disengagement</h2>
             <p className="corp-wellness">
               Do you know the level of employee disengagement at your business? According to a
               recent Gallup poll, only 33% of workers in the United States are engaged in their
               jobs, which means the remaining 51% of employees are disengaged and 16% are actively
               disengaged.
             </p>
-            <h4>What is employee engagement?</h4>
-            <p>
-              Gallup defines engaged employees as those who are involved in, enthusiastic about and
-              committed to their work and workplace. Gallup categorizes workers as engaged, not
-              engaged or actively disengaged based on their responses to key workplace elements.
+            <div className="corp-wellness-subsection">
+              <h4>What is employee engagement?</h4>
+              <p>
+                Gallup defines engaged employees as those who are involved in, enthusiastic about
+                and committed to their work and workplace. Gallup categorizes workers as engaged,
+                not engaged or actively disengaged based on their responses to key workplace
+                elements.
+              </p>
               <ul>
                 <li>
                   Engaged: Employees are highly involved in and enthusiastic about their work and
@@ -44,6 +40,8 @@ class CorporateWellness extends Component {
                   these workers potentially undermine what their engaged coworkers accomplish.
                 </li>
               </ul>
+            </div>
+            <div className="corp-wellness-subsection">
               <h4>What does that mean for you?</h4>
               <p>Disengaged employees are either:</p>
               <ul>
@@ -54,6 +52,8 @@ class CorporateWellness extends Component {
                   company forward.
                 </li>
               </ul>
+            </div>
+            <div className="corp-wellness-subsection">
               <h4>Bottom Line</h4>
               <p>
                 Disengaged employees are costing you money and affecting your profits. The
@@ -69,6 +69,8 @@ class CorporateWellness extends Component {
                 engaged in the business, be proactive about their schedule, and be positive about
                 where the company is going and how they treat their coworkers.
               </p>
+            </div>
+            <div className="corp-wellness-subsection">
               <h4>A Key to Better Engagement</h4>
               <p>
                 Disengaged employees lose the motivation to give their best effort to help your
@@ -91,19 +93,22 @@ class CorporateWellness extends Component {
                 <li>70% fewer safety incidents </li>
                 <li>40% fewer defects and quality issues</li>
               </ul>
-              The truth comes down to this: if you ignore employee disengagement, employees will opt
-              out at work. Providing Relationship Repair will not only help your employees with
-              family conflict, it will impact workplace conflict amounting to higher engagement
-              along with higher productivity within your business, which means happier employees and
-              higher profits.
-              <br />
-              <br /> Schedule an appointment here. Work place engagement has improved through
-              Relationship Repair resulting in organizations across nearly every industry
-              successfully maximize millions of dollars to their organizations.
-            </p>
+            </div>
+            <div className="corp-wellness-subsection">
+              <p>
+                The truth comes down to this: If you ignore employee disengagement, employees will
+                opt out at work. Providing Relationship Repair will not only help your employees
+                with family conflict, it will impact workplace conflict amounting to higher
+                engagement along with higher productivity within your business, which means happier
+                employees and higher profits.
+                <br />
+                <br /> Schedule an appointment here. Work place engagement has improved through
+                Relationship Repair resulting in organizations across nearly every industry
+                successfully maximize millions of dollars to their organizations.
+              </p>
+            </div>
           </div>
         </section>
-        <section className="message" />
       </div>
     )
   }
