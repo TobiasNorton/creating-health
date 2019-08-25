@@ -10,7 +10,6 @@ class Home extends Component {
           <NavBar />
           <section className="main">
             <h1>Creating Health and Healing</h1>
-            {/* <button className="body-appt">Set Appointment</button> */}
             <h3 className="starter-kit">Take a moment to rate your relationships.</h3>
             <Link to="/rate-your-relationships">
               <button className="click-for-score">Click Here For Your Score</button>

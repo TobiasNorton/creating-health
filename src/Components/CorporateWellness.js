@@ -7,9 +7,9 @@ class CorporateWellness extends Component {
       <div className="home">
         <NavBar />
         <section className="main">
-          <div className="content-container">
+          <div className="corp-wellness">
             <h2>The Real Cost of Employee Disengagement</h2>
-            <p className="corp-wellness">
+            <p className="corp-wellness-caption">
               Do you know the level of employee disengagement at your business? According to a
               recent Gallup poll, only 33% of workers in the United States are engaged in their
               jobs, which means the remaining 51% of employees are disengaged and 16% are actively
